@@ -1,4 +1,4 @@
-module.exports = function (router, db, async, fs,csv,parse,path) {
+module.exports = function (router, db, async, fs,csv,parse) {
 
   router.post("/productdetailsuploadfile", async (req, res) => {
 
